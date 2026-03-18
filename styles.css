@@ -1,1 +1,18 @@
 /*  your css code here. If applicable */
+div{
+	display:flex;
+	justify-content:center;
+}
+#bands{
+	list-style-type:square;
+	display:flex;
+	flex-direction:column;
+	
+	/* justify-content:flex-start; */
+	gap:2rem;
+	
+	
+}
+#bands li{
+	/* text-align:; */
+}
